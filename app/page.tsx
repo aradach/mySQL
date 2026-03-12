@@ -1,0 +1,10 @@
+import UsersClient from "@/app/components/UsersClient";
+import UsersClientComplete from "./components/UserClientComplete";
+
+export default function HomePage() {
+  return (
+    <main>
+      <UsersClientComplete />
+    </main>
+  );
+}
